@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE CROWNE</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+  <div class="main-content">
+
+  <header class="navbar about-navbar">
+      <div class="logo">
+  <a href="index.html">
+    <img src="images/img 25.jpg" alt="The Crowne Logo">
+  </a>
+</div>
+    <div class="menu-btn">☰</div>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="about.html" class="nav-btn active">About</a>
+      <a href="index.html#gallery" class="nav-btn">Gallery</a>
+      <a href="about.html#amenities" class="nav-btn">Amenities</a>
+
+      <a href="https://wa.me/233244485005?text=Hello%20The%20Crowne,%20I%20would%20like%20to%20make%20an%20inquiry."
+         target="_blank"
+         class="whatsapp-link">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- Back to Top -->
+<button id="backToTop" title="Go to top">⮝</button>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-slider">
+
+    <div class="hero-slide active" style="background-image: url('https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/b96a7fca-d260-4820-9745-0eaaf59b409b.jpeg?im_w=1200');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <img src="images/img 25.jpg" class="hero-logo" alt="The Crowne Logo">
+        <h1>Experience Luxury Redefined.</h1>
+        <a href="#about" class="btn-discover">Discover More</a>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image: url('https://img.freepik.com/premium-photo/empty-room-interior-skyscrapers-view-cityscape-downtown-seattle-city-skyline-buildings-from-high-rise-window-beautiful-real-estate-sunset-3d-rendering_269648-7771.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p>Welcome To The Crowne </p>
+        <h1>A PLACE THAT TREATS YOU LIKE THE KING OR QUEEN YOU ARE.</h1>
+        <a href="about.html" class="btn-discover">About Us</a>
+        <a href="#booking" class="btn-discover">Book Now</a>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image: url('https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/66c530e0-6e4e-4072-b9f5-952f3891c3f8.jpeg?im_w=1200');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p>The Ultimate Luxury Experience</p>
+        <h1>FIND YOUR NEW HOME TODAY.</h1>
+        <a href="index.html#gallery" class="btn-discover">Explore Rooms</a>
+      </div>
+    </div>
+
+    <!-- Arrows (inside the slider) -->
+    <button class="hero-prev" aria-label="Previous slide">&#10094;</button>
+    <button class="hero-next" aria-label="Next slide">&#10095;</button>
+
+  </div> <!-- <-- important: close .hero-slider -->
+</section>
+
+    <!-- Booking Section -->
+<section class="booking" id="booking">
+  <div class="booking-container">
+    <div class="booking-item">
+      <label for="checkin">Check-In</label>
+      <input type="date" id="checkin" name="checkin">
+    </div>
+    <div class="booking-item">
+      <label for="checkout">Check-Out</label>
+      <input type="date" id="checkout" name="checkout">
+    </div>
+    <div class="booking-item">
+      <label for="guests">Guests</label>
+      <select id="guests" name="guests">
+        <option>1 Guest</option>
+        <option>2 Guests</option>
+        <option>3 Guests</option>
+        <option>4 Guests</option>
+        <option>5+ Guests</option>
+      </select>
+    </div>
+    <div class="booking-item">
+    <button id="checkAvailability" type="button" class="booking-btn">
+  Check Availability
+</button>
+  
+    </div>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>Our Story</h2>
+      <p>
+        At THE CROWNE, we merge elegance, comfort, and cultural authenticity.  
+        Forget your worries in this spacious, stylish, and serene space in the prime location of Accra.  
+        Every detail is designed to offer you the luxury of a refined lifestyle while staying connected to rich heritage.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="images/IMG -1.jpg.jpg" alt="the crowne building" class="about-img">
+    </div>
+  </div>
+</section>
+    <!-- Divider Image Section -->
+<section class="divider-image">
+  <img src="images/img 27.jpg" alt="a lady stretching">
+</section>
+
+
+
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-row">
+        <!-- Each figure item -->
+        <figure>
+          <img src="images/IMG-2.jpg.jpg" alt="Three framed black and white photographs" class="gallery-img lightbox-trigger">
+          <figcaption>Modern stairwell</figcaption>
+        </figure>
+        <figure>
+          <img src="images/img-18.jpg.jpg" alt="Cozy round wicker daybed" class="gallery-img lightbox-trigger">
+          <figcaption>Rooftop terrace with daybed</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG-12.jpg.jpg" alt="Bright hallway with marble floor" class="gallery-img lightbox-trigger">
+          <figcaption>Bright hallway and staircase</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG-10.jpg.jpg" alt="Minimalist bedroom" class="gallery-img lightbox-trigger">
+          <figcaption>Minimalist bedroom</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG-13.jpg (2).jpg" alt="Spacious hallway" class="gallery-img lightbox-trigger">
+          <figcaption>Spacious Hallway</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG-14.jpg.jpg" alt="Kitchen drawer with utensils" class="gallery-img lightbox-trigger">
+          <figcaption>Kitchenette</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG-15.jpg.jpg" alt="Outdoor seating" class="gallery-img lightbox-trigger">
+          <figcaption>Minibar</figcaption>
+        </figure>
+        <figure>
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/d289a372-6b04-472e-8183-9dcec99c2be3.jpeg?im_w=1200" alt="Dining area" class="gallery-img lightbox-trigger">
+          <figcaption>Modern kitchen</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG -1.jpg.jpg" alt="Luxurious bathroom" class="gallery-img lightbox-trigger">
+          <figcaption>Exterior</figcaption>
+        </figure>
+        <figure>
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/6d1c77e4-b806-4868-92ef-ddc82a0c7a20.jpeg?im_w=1200" alt="Living room" class="gallery-img  lightbox-trigger">
+          <figcaption>Front Balcony</figcaption>
+        </figure>
+        <figure>
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/200dddd9-8ff9-4df2-ae76-bcc619c81c36.jpeg?im_w=1200" alt="Bedroom" class="gallery-img lightbox-trigger">
+          <figcaption>Back Balcony</figcaption>
+        </figure>
+        <figure>
+          <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1053585969023007734/original/b8e05444-9f57-44be-adb3-2ac42d74a6a6.jpeg?im_w=1200" alt="Rooftop terrace" class="gallery-img lightbox-trigger">
+          <figcaption>Full Bathroom</figcaption>
+        </figure>
+      </div>
+    </section>
+
+<!-- Location -->
+  <section id="location" class="location">
+     <h2>Find Us</h2>
+      <div class="map-container">
+         <iframe src="https://www.google.com/maps?q=Ceinode+Ghana+Accra,+Ghana&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         </section>
+   
+
+
+    
+  </div> <!-- End of main-content -->
+  <!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loader-dots">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+  <div id="lightbox" class="lightbox">
+  <div class="lightbox-inner" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+    <button class="lightbox-next" aria-label="Next">&#10095;</button>
+    <img class="lightbox-img" src="" alt="">
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+</body>
+</html>
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left side -->
+    <div class="footer-left">
+      <h2>THE CROWNE</h2>
+      <img src="images/img 25.jpg" alt="The crowne logo" class="footer-logo">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    
+    <div class="footer-right">
+  <h3>Contact Us</h3>
+
+  <div class="contact-box">
+    <i class="fas fa-phone"></i>
+    <div>
+      <h4>Phone Number</h4>
+      <p>Call Us: <a href="tel:+233244485005">+233 24 448 5005</a></p>
+    </div>
+  </div>
+
+  <div class="contact-box">
+    <i class="fas fa-envelope"></i>
+    <div>
+      <h4>Email Address</h4>
+      <p>Email: <a href="mailto:info@thecrown.com">info@thecrown.com</a></p>
+    </div>
+  </div>
+
+  <div class="contact-box">
+    <i class="fas fa-map-marker-alt"></i>
+    <div>
+      <h4>Office Address</h4>
+      <p>Accra, Ghana</p>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+   <div class="footer-bottom">
+    <div class="footer-bottom-left">
+      © 2025 The Crowne. All rights reserved.
+    </div>
+    <div class="footer-bottom-right">
+      <a href="terms.html">Terms of Use</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="environmental.html">Environmental Policy</a> |
+      <span>USD</span>
+    </div>
+  </div>
+</footer>
